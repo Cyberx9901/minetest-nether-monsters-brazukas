@@ -13,8 +13,8 @@ nethermobs.MIN_HEIGHT_NETHERMAN = nether.FLOOR_CEILING
 nethermobs.MAX_HEIGHT_DRAGON = nether.DEPTH_CEILING
 nethermobs.MIN_HEIGHT_DRAGON = nether.FLOOR_CEILING
 
---nethermobs.NETHERMAN_SPAWN_ONLY_IN_NETHER = true
---nethermobs.DRAGON_SPAWN_ONLY_IN_NETHER = true
+nethermobs.NETHERMAN_SPAWN_ONLY_IN_NETHER = true
+nethermobs.DRAGON_SPAWN_ONLY_IN_NETHER = true
 
 -- Override default settings with values from the .conf file, if any are present.
 nethermobs.NETHERMAN_ENABLED       = minetest.settings:get_bool("nethermobs.netherman_enabled", nethermobs.NETHERMAN_ENABLED)
